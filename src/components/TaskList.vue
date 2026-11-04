@@ -15,7 +15,7 @@ defineEmits<{
 <template>
   <section class="task-list">
     <h2>Tasks</h2>
-    <p v-if="tasks.length === 0" class="empty">No tasks yet. Add your first one above!</p>
+    <p v-if="tasks.length === 0" class="empty">No tasks yet !</p>
     <ul v-else>
       <TaskItem
         v-for="task in tasks"

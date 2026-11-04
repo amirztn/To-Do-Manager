@@ -15,6 +15,7 @@ const year = new Date().getFullYear()
   color: #fff;
   text-align: center;
   font-size: 0.85rem;
+  width: 100%;
 }
 p { margin: 0; opacity: 0.85; }
 </style>

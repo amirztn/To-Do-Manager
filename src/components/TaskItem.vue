@@ -37,9 +37,9 @@ function onStatusChange(id: string, event: Event): void {
 </template>
 
 <style scoped>
-.task-item { display: flex; align-items: center; gap: 0.75rem; padding: 0.7rem 0.9rem; border: 1px solid #ddd; border-radius: 4px; background: #fff; }
+.task-item { display: flex; align-items: center; gap: 0.75rem; padding: 0.7rem 0.9rem; border: 1px solid #ddd; border-radius: 4px; background: #000000; }
 .title { flex: 1; word-break: break-word; }
-.done .title { text-decoration: line-through; color: #888; }
+.done .title { text-decoration: line-through; color: #dddbdb; }
 .badge { padding: 0.15rem 0.6rem; border-radius: 999px; font-size: 0.75rem; color: #fff; white-space: nowrap; }
 .badge[data-status='to do'] { background: #7f8c8d; }
 .badge[data-status='in progress'] { background: #e67e22; }
