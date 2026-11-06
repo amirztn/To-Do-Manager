@@ -45,7 +45,17 @@ label { font-weight: 600; }
 .row { display: flex; gap: 0.5rem; }
 input { flex: 1; padding: 0.6rem; border: 1px solid #bbb; border-radius: 4px; font-size: 1rem;}
 input[aria-invalid='true'] { border-color: #c0392b;content: "\01F5D1"; }
-button { padding: 0.6rem 1.2rem; border: none; border-radius: 4px; background: #42b883; color: #fff; font-size: 1rem; cursor: pointer; }
+button  {
+  padding: 0.6rem 1.2rem; 
+  border: none;
+  border-radius: 4px;
+  background: #42b883;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer; 
+}
 button:hover { background: #36a374; }
-.error { margin: 0; color: #c0392b; font-size: 0.9rem; }
+.error {
+   margin: 0; color: #c0392b; font-size: 0.9rem; 
+}
 </style>
