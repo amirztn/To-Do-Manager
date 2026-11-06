@@ -1,10 +1,9 @@
 <script setup lang="ts">
-const year = new Date().getFullYear()
 </script>
 
 <template>
   <footer class="app-footer">
-    <p>To-Do Manager &copy; {{ year }} &mdash; Built with Vue 3 &amp; TypeScript</p>
+    <p>To-Do Manager &copy; {{2026}} &mdash; Built with Vue 3 &amp; TypeScript</p>
   </footer>
 </template>
 
